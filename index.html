@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Decodificador Criptográfico</title>
+  </head>
+  <body>
+    <header>
+      <h1>🔒 Decodificador Criptográfico 🔒</h1>
+    </header>
+    <main>
+      <section class="descricao">
+        <p>Criptografia baseada no alfabeto latino, na língua portuguesa.</p>
+        <p>
+          A chave de criptografia é dividir o alfabeto em duas partes e inverter
+          os valores das letras.
+        </p>
+        <h3>Exemplo:</h3>
+        <p>
+          | A <-> N | B <-> O | C <-> P | D <-> Q | E <-> R | F <-> S | G <-> T
+          | H <-> U | I <-> V | J <-> W | K <-> X | L <-> Y | M <-> Z |
+        </p>
+      </section>
+      <section class="conversor">
+        <section class="conversorParaCripto">
+          <label for="texto">Insira uma frase ou nome</label>
+          <input id="texto" type="text" />
+          <button onclick="botao()">Decodificar</button>
+        </section>
+      </section>
+      <span id="template"></span>
+    </main>
+  </body>
+  <script src="conversão.js"></script>
+</html>
